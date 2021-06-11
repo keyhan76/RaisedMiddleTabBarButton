@@ -13,6 +13,8 @@
 		338C2696266E1D870081720F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338C2694266E1D870081720F /* Main.storyboard */; };
 		338C2698266E1D880081720F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338C2697266E1D880081720F /* Assets.xcassets */; };
 		338C269B266E1D880081720F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338C2699266E1D880081720F /* LaunchScreen.storyboard */; };
+		338C26A3266E1DA00081720F /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C26A2266E1DA00081720F /* CustomTabBarController.swift */; };
+		338C26A5266E1DAF0081720F /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C26A4266E1DAF0081720F /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		338C2697266E1D880081720F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338C269A266E1D880081720F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		338C269C266E1D880081720F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338C26A2266E1DA00081720F /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		338C26A4266E1DAF0081720F /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				338C2697266E1D880081720F /* Assets.xcassets */,
 				338C2699266E1D880081720F /* LaunchScreen.storyboard */,
 				338C269C266E1D880081720F /* Info.plist */,
+				338C26A2266E1DA00081720F /* CustomTabBarController.swift */,
+				338C26A4266E1DAF0081720F /* CustomTabBar.swift */,
 			);
 			path = CustomTabBar;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				338C2693266E1D870081720F /* ViewController.swift in Sources */,
+				338C26A5266E1DAF0081720F /* CustomTabBar.swift in Sources */,
 				338C268F266E1D870081720F /* AppDelegate.swift in Sources */,
+				338C26A3266E1DA00081720F /* CustomTabBarController.swift in Sources */,
 				338C2691266E1D870081720F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
