@@ -1,1 +1,1 @@
-# RaisedMiddleTabBarButton
+# Raised Middle TabBar Button
